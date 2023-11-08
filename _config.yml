@@ -16,7 +16,7 @@ timezone: Atlantic/Madeira
 
 title: Pedro Rodrigues # the main title
 
-tagline: Documentation for Effortless Tool Installation and Usage  # it will display as the sub-title
+tagline: Documentation for Tool Installation and Usage  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Welcome. This site was created to document the installation and usage of tools that I use on a daily basis. I hope you find it useful.
