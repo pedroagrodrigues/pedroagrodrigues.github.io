@@ -19,8 +19,7 @@ title: Pedro Rodrigues # the main title
 tagline: Documentation for Effortless Tool Installation and Usage  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Welcome. Here, you will find comprehensive documentation on a wide range of tools that will enhance your productivity and efficiency. From software development frameworks to data analysis libraries, our goal is to provide step-by-step instructions and easy-to-follow prompts, enabling you to quickly install and utilize these tools in your workflow. Say goodbye to tedious manual setups and let Toolbox Central guide you on the path to seamless tool integration. Start exploring now and unlock a world of possibilities for optimizing your work processes!
-
+  Welcome. This site was created to document the installation and usage of tools that I use on a daily basis. I hope you find it useful.
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://pedroagrodrigues.github.io"
