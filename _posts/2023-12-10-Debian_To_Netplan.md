@@ -85,7 +85,7 @@ At this point, you should press `enter` to save the changes.
 
 Fix the permissions for the newly created netplan file:
 
-```sh
+```bash
 sudo chmod 600 /etc/netplan/*
 ```
 
@@ -152,7 +152,3 @@ Netplan.io’s YAML-based configuration offers a more human-readable and extensi
 Following the step-by-step guide, you’ve learned how to convert from ifupdown to a netplan configuration, setting up a static IP, and verify the network connectivity. Remember to back up your existing configuration before starting the migration, and take the time to review and understand your network requirements.
 
 With the migration complete, your Debian machine is now equipped with a modern networking tool that aligns with current best practices, making it easier to manage and adapt to evolving network configurations. Explore additional netplan features and tailor your network setup to meet your needs.
-
-```
-
-```
