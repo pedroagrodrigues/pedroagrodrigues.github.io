@@ -68,7 +68,7 @@ sudo ENABLE_TEST_COMMANDS=1 netplan migrate && sudo netplan try
 
 If everything goes smoothly, you should get a similar output:
 
-```terminal
+```plaintext
 migration complete, wrote /etc/netplan/10-ifupdown.yaml
 renaming /etc/network/interfaces to /etc/network/interfaces.netplan-converted
 
