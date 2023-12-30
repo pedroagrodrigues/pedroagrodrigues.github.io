@@ -31,7 +31,7 @@ Netplan and ifupdown are Linux network configuration tools with distinct charact
 ## Step 1 - Installing Netplan.io
 
 > It is recommended to save your configuration on all steps. If you are using a virtual machine, you can take a snapshot. Proceed at your own risk.
-> {: .prompt-warning}
+{: .prompt-warning}
 
 We start by installing netplan.io.
 
@@ -52,7 +52,7 @@ sudo systemctl enable systemd-resolved.service;
 ```
 
 > If you get an error about systemd-resolved not being found/installed. Install it before proceeding:
-> {: .prompt-danger}
+{: .prompt-danger}
 
 ```bash
 sudo apt install systemd-resolved -y
@@ -90,7 +90,7 @@ sudo chmod 600 /etc/netplan/*
 ```
 
 > If you are using a static IP, updating the configuration is a good practice.
-> {: .prompt-tip}
+{: .prompt-tip}
 
 To achieve this you have to edit the file inside `/etc/netplan/`. Heres an example of a static configuration:
 
@@ -115,7 +115,7 @@ network:
 ```
 
 > Search is not mandatory. You may remove it if you don't have a domain.
-> {: .prompt-info}
+{: .prompt-info}
 
 ## Step 4 - Reboot
 
