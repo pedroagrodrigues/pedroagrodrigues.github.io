@@ -183,7 +183,7 @@ iface eno4 inet manual
 auto vmbr0
 iface vmbr0 inet static
         address 172.16.200.1/16
-        gateway 10.20.0.1
+        gateway 172.16.0.1
         bridge-ports eno1np0
         bridge-stp off
         bridge-fd 0
