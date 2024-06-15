@@ -110,7 +110,7 @@ ip dhcp-client add dhcp-options=hostname,clientid disabled=no interface=WAN
 
 At this point in this guide, your router should already be able to connect to the Internet. Test this on the terminal by pinging `google.pt`.
 
-## Step 6 VLANs
+## Step 6 - VLANs
 
 `VLans` (Virtual Local Area Networks) are virtual networks created within a physical network, allowing for segmentation and isolation of network traffic for improved security and network management.
 
