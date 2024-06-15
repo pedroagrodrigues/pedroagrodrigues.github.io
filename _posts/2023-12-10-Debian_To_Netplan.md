@@ -1,8 +1,8 @@
 ---
 title: Converting Debian 10/11/12 to Netplan.io
 date: 2023-12-10 14:20:00
-categories: [Networking, Linux]
-tags: [linux, networking, static ip, network configuration, terminal, debian]
+categories: [Networking,Linux]
+tags: [linux,networking,static ip,network configuration,terminal,debian]
 ---
 
 # Netplan Migration
