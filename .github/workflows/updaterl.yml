@@ -2,14 +2,9 @@ name: GitHub Actions Version Updater
 
 # Controls when the action will run.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
+  schedule:
+    # Automatically run on every Sunday
+    - cron:  '0 0 * * 0'
 
 jobs:
   build:
@@ -23,16 +18,6 @@ jobs:
 
       - name: Run GitHub Actions Version Updater
         uses: saadmk11/github-actions-version-updater@v0.8.1
-        # Required to get the PR number
-        id: gha-update
         with:
           # [Required] Access token with `workflow` scope.
           token: ${{ secrets.WORKFLOW_SECRET }}
-          skip_pull_request: 'false'
-      - name: Get PR Number
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Update versions"
-          git push
