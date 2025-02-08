@@ -23,6 +23,11 @@ jobs:
 
       - name: Run GitHub Actions Version Updater
         uses: saadmk11/github-actions-version-updater@v0.8.1
+        # Required to get the PR number
+        id: gha-update
         with:
           # [Required] Access token with `workflow` scope.
           token: ${{ secrets.WORKFLOW_SECRET }}
+          skip_pull_request: 'false'
+      - name: Get PR Number
+        run: echo "The PR Number is ${{ steps.gha-update.outputs.GHA_UPDATE_PR_NUMBER }}"
