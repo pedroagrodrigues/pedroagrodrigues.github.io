@@ -30,4 +30,9 @@ jobs:
           token: ${{ secrets.WORKFLOW_SECRET }}
           skip_pull_request: 'false'
       - name: Get PR Number
-        run: echo "The PR Number is ${{ steps.gha-update.outputs.GHA_UPDATE_PR_NUMBER }}"
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update versions"
+          git push
