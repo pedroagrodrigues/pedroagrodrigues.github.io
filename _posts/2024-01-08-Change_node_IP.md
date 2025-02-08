@@ -1,7 +1,7 @@
 ---
 title: Proxmox - Change Node IP
 date: 2024-01-08 21:00:00
-categories: [Proxmox,Networking,Linux]
+categories: [Proxmox]
 tags: [proxmox,linux,networking,static ip,network configuration]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Changing Hostname
-date: 2023-08-20 12:42:22
-categories: [Linux,Operating System]
+date: 2025-01-02 00:00:00
+categories: [OS,Linux]
 tags: [linux,networking,static ip,network configuration,terminal,os]
 ---
 

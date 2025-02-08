@@ -1,8 +1,8 @@
 ---
 title: Upgrading PHP version
 date: 2024-01-28 13:45:22
-categories: [PHP,Applications]
-tags: [linux,php,apache2,nginx,caddy,litespeed,webserver]
+categories: [PHP]
+tags: [linux,php,apache2,nginx,caddy,litespeed,webserver,applications]
 ---
 
 
