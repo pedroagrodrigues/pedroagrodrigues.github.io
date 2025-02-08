@@ -5,6 +5,15 @@ on:
   schedule:
     # Automatically run on every Sunday
     - cron:  '0 0 * * 0'
+    
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
 
 jobs:
   build:
