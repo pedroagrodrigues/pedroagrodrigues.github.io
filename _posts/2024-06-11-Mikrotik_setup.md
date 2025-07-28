@@ -128,16 +128,16 @@ For this example, we are adding 4 `VLans`:
 To make this work, we will start by adding the `VLans`:
 
 ```sh
-/interface bridge add name="vlans"
+/interface bridge add name="VLAN-Bridge"
 
 /interface vlan
-add interface="vlans" vlan-id=10 name="Users" disabled=no;
+add interface="VLAN-Bridge" vlan-id=10 name="Users" disabled=no;
 
-add interface="vlans" vlan-id=20 name="IoT" disabled=no;
+add interface="VLAN-Bridge" vlan-id=20 name="IoT" disabled=no;
 
-add interface="vlans" vlan-id=30 name="Guest" disabled=no;
+add interface="VLAN-Bridge" vlan-id=30 name="Guest" disabled=no;
 
-add interface="vlans" vlan-id=100 name="Servers" disabled=no;
+add interface="VLAN-Bridge" vlan-id=100 name="Servers" disabled=no;
 ```
 Now that the `VLans` are created, we must give them their `IPs` and networks:
 
@@ -172,7 +172,7 @@ To enable access to the Internet, each `VLan` must have a `gateway` and a **DNS*
 
 
 ```sh
-
+/ip dhcp-server network
 add address=172.16.10.0/24 dns-server=1.1.1.1,1.0.0.1,8.8.8.8,8.8.4.4 gateway=172.16.10.1 comment="User Network";
 
 add address=172.16.20.0/24 dns-server=1.1.1.1,1.0.0.1,8.8.8.8,8.8.4.4 gateway=172.16.20.1 comment="IoT Network";
