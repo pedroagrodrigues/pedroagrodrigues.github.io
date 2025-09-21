@@ -1,9 +1,3 @@
----
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
----
-
 # 👋 Hi, I'm Pedro Rodrigues
 
 I'm a technology enthusiast with a strong background in systems, networks, and software.  
