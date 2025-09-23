@@ -1,20 +1,20 @@
 ---
 title: Proxmox - Change Node IP
 date: 2024-01-08 21:00:00
-categories: [Proxmox]
-tags: [proxmox,linux,networking,static ip,network configuration]
+categories: [Proxmox, Networking]
+tags: [Proxmox, Linux, Networking, "Static IP", "Network Configuration", "PVE Cluster", "Network Interfaces", "Cluster Management"]
 ---
 
 ## Introduction
 
-Here, we will change the IP of one node of a Proxmox VE cluster. 
+Here, we will change the IP of one node of a Proxmox VE cluster.
 
->Moving all your VMs to another node before proceeding would be best. 
+> Moving all your VMs to another node before proceeding would be best.
 {: .prompt-warning}
 
 ## Step 1 - Preparing
 
-Go to the node you wish to change the IP. Here, we will start by listing the nodes present:
+Go to the node you wish to change the IP. Start by listing the nodes present:
 
 ```bash
 pvecm status
@@ -23,6 +23,37 @@ pvecm status
 The output should show all the nodes connected to the cluster and some quorum information. Here is an example:
 
 ```plaintext
+Cluster information
+-------------------
+Name:             Test-Cluster
+Config Version:   5
+Transport:        knet
+Secure auth:      on
+
+Quorum information
+------------------
+Date:             Mon Jan  8 19:40:33 2024
+Quorum provider:  corosync_votequorum
+Nodes:            3
+Node ID:          0x00000001
+Ring ID:          1.1418
+Quorate:          Yes
+
+Votequorum information
+----------------------
+Expected votes:   3
+Highest expected: 3
+Total votes:      3
+Quorum:           2
+Flags:            Quorate
+
+Membership information
+----------------------
+  Nodeid      Votes Name
+0x00000001          1 192.168.10.1 (local)
+0x00000003          1 192.168.10.2
+0x00000004          1 192.168.10.3
+```
 root@node01:~# pvecm status
 Cluster information
 -------------------

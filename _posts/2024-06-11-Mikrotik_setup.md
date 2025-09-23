@@ -1,7 +1,7 @@
 ---
 title: Mikrotik RouterOS Initial Setup
 date: 2024-01-28 13:45:22
-categories: [Mikrotik,Router]
+categories: [Networking, MikroTik]
 tags: [VLans,Networking,Routing]
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Upgrading PHP version
 date: 2024-01-28 13:45:22
-categories: [PHP]
-tags: [linux,php,apache2,nginx,caddy,litespeed,webserver,applications]
+categories: [DevOps,PHP]
+tags: [PHP, Linux, Ubuntu, Debian, Apache, Nginx, PHP-FPM, Upgrade, Packages, Ondrej, DevOps, Migration]
 ---
 
 
