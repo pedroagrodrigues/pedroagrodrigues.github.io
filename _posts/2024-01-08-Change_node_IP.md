@@ -2,7 +2,7 @@
 title: Proxmox - Change Node IP
 date: 2024-01-08 21:00:00
 categories: [Proxmox, Networking]
-tags: [Proxmox, Linux, Networking, "Static IP", "Network Configuration", "PVE Cluster", "Network Interfaces", "Cluster Management"]
+tags: [proxmox, linux, networking, "static ip", "network configuration", "pve cluster", "network interfaces", "cluster management"]
 ---
 
 ## Introduction

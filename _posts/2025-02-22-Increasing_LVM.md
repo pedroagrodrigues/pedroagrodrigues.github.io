@@ -2,7 +2,7 @@
 title: Increasing LVM Size on Linux
 date: 2025-09-22 12:00:00
 categories: [Linux, LVM]
-tags: [Linux,LVM,Storage,Terminal]
+tags: [linux,lvm,storage,terminal]
 ---
 
 

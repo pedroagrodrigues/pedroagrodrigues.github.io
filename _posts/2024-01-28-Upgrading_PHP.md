@@ -2,7 +2,7 @@
 title: Upgrading PHP version
 date: 2024-01-28 13:45:22
 categories: [DevOps,PHP]
-tags: [PHP, Linux, Ubuntu, Debian, Apache, Nginx, PHP-FPM, Upgrade, Packages, Ondrej, DevOps, Migration]
+tags: [php, linux, ubuntu, debian, apache, nginx, php-fpm, upgrade, packages, ondrej, devops, migration]
 ---
 
 

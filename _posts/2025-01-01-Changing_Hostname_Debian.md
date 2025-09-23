@@ -2,7 +2,7 @@
 title: Changing Hostname
 date: 2025-01-02 00:00:00
 categories: [OS,System Administration]
-tags: [Linux, Terminal, OS, Debian, Hostname, Networking]
+tags: [linux, terminal, os, debian, hostname, networking]
 ---
 
 > These commands work on  Debian and Ubuntu machines. It might work on some other distributions.

@@ -2,7 +2,7 @@
 title: Mikrotik RouterOS Initial Setup
 date: 2024-01-28 13:45:22
 categories: [Networking, MikroTik]
-tags: [VLans,Networking,Routing]
+tags: [vlans, networking, routing]
 ---
 
 RouterOS is a stand-alone operating system based on the Linux kernel. It powers MikroTik hardware devices but is also available for virtual machines.
