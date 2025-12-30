@@ -8,7 +8,7 @@ tags: [linux, terminal, os, debian, hostname, networking]
 > These commands work on  Debian and Ubuntu machines. It might work on some other distributions.
 {: .prompt-tip}
 
-### Step 1: Check the Current Hostname
+### Step 1 - Check the Current Hostname
 
 Before changing the hostname, check the current hostname of your system using the following command:
 
@@ -26,7 +26,7 @@ hostname
 
 
 
-### Step 2: Change the Hostname Temporarily (Until Reboot)
+### Step 2 - Change the Hostname Temporarily (Until Reboot)
 If you want to change the hostname temporarily (it will revert after a reboot), use the following command:
 
 ```bash
@@ -43,7 +43,7 @@ hostname
 ```
 {: .nolineno }
 
-### Step 3: Change the Hostname Permanently
+### Step 3 - Change the Hostname Permanently
 To change the hostname permanently, follow these steps:
 
 Edit the `/etc/hostname` file:
@@ -77,7 +77,7 @@ sudo hostnamectl set-hostname new-hostname
 ```
 {: .nolineno }
 
-### Step 4: Verify the Changes
+### Step 4 - Verify the Changes
 To confirm that the hostname has changed, run the following:
 
 ```bash
@@ -93,7 +93,7 @@ hostname
 You should see the new hostname displayed.
 
 
-### Step 5: Reboot the System (Optional)
+### Step 5 - Reboot the System (Optional)
 To ensure the changes are fully applied, reboot your system:
 
 ```bash
